@@ -8,5 +8,5 @@
 
 # 5 - Tune it: You may need to go back to report.qmd for small tweaks
 
-source("make_qmd3.R")
-make_qmd3("input/report.docx")
+source("make_qmd.R")
+make_qmd("input/report.docx")

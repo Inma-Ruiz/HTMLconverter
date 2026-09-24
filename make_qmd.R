@@ -1,4 +1,4 @@
-make_qmd3 <- function(docx_path) {
+make_qmd <- function(docx_path) {
   
   # store charts/pictures
   media_dir <- here::here("output")
