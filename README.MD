@@ -35,7 +35,8 @@ Place the image you want to use as a header, named as `header_image.svg` inside 
 
 Once the document is correctly formatted, place your_publication.docx file in the `input` folder.
 
-Run the `mainConverter.R` script in which you have entered the name of the file to be converted in the line: make_qmd("input/ your_report_name.docx ") After running the code, a **report.qmd** document will appear in the output folder.
+Run the `mainConverter.R` script in which you have entered the name of the file to be converted in the line: `make_qmd("input/ your_report_name.docx")` 
+After running the code, a `report.qmd` document will appear inside the `output` folder.
 
 Render the Quarto file to obtain the equivalent `report.html` publication.
 
