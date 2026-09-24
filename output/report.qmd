@@ -15,7 +15,7 @@ embed-resources: true
 css: style.css
 ---
 
-# This is document for testing the function
+# Document for testing the function (H1)
 
 This is an example of the Normal style used in a Microsoft Word
 document. The normal paragraph style is typically used for the main body
@@ -27,33 +27,35 @@ standard HTML paragraphs.You can use this section to evaluate
 readability, spacing, margins, and text flow. This example helps verify
 how content appears after conversion from Word to HTML.
 
-# Heading 1
+## Heading (H2)
 
-This section demonstrates content placed under a Heading 1 style. A
+This section demonstrates content placed under a Heading 2 style. A
 first-level heading is commonly used to define major sections within a
 document.
 
 When rendered through Quarto, it is typically converted to an HTML
-\<h1\> element. You can inspect the font size, weight, spacing before
+\<h2\> element. You can inspect the font size, weight, spacing before
 and after the heading, and hierarchy.
 
 This placeholder text is intended to help assess the visual appearance
 of the generated output.
 
-## Heading 2
+### Heading (H3)
 
-This section demonstrates content placed under a Heading 2 style. A
+This section demonstrates content placed under a Heading 3 style. A
 second-level heading is usually used for subsections within a larger
 section.
 
 When converting a Quarto document to HTML, this heading is generally
-mapped to an \<h2\> element. Use this example to verify indentation,
+mapped to an \<h3\> element. Use this example to verify indentation,
 font scaling, spacing rules, and style consistency.
 
 The purpose of this text is to provide enough content to evaluate the
 rendered design.
 
-### Figure 1 illustrates how figures extracted from the document and captions may appear in the final rendered document. I have use H3 for this block of text.
+**Figure 1 illustrates how figures extracted from the document and
+captions may appear in the final rendered document. This is a bold
+normal text.**
 
 This is a stock image from the MS Word library (leave empty line after
 that and leave empty the alt text):
@@ -64,7 +66,8 @@ This placement is intended to test how anchored images with
 top-and-bottom wrapping are converted and rendered when the Quarto
 document is transformed into HTML.
 
-### Figure 2 illustrates how figures extracted from the document and may appear in the HTML document. I have use H3 for this block.
+**Figure 2 illustrates how figures extracted from the document and may
+appear in the HTML document. This is a bold normal text.**
 
 This is an illustration from the MS word stock. If the image has alt tex
 it will be shown as caption on the top:
@@ -84,7 +87,7 @@ pictures for best result when converting to html. And also will show how
 bullets points looks like. For that in your document , use the
 "Bulleted" style.
 
-# Image Placement Instructions and bullet point example
+## Image Placement Instructions and bullet point example (H2)
 
 -   Insert the image on an empty paragraph directly below this text.
 
@@ -104,3 +107,18 @@ bullets points looks like. For that in your document , use the
 -   Lock anchor and don't allow overlap.
 
 -   Maintain the image aspect ratio when resizing.
+
+## Play with the style (H2)
+
+In RStudio, navigate to the output folder and find the style.css file.
+Open it and try to understand it. You can copy the contents into an AI
+tool and ask it to explain the CSS line by line or block by block,
+depending on how familiar you are with CSS.
+
+### Have a go at changing some of the CSS and see what happens! (H3)
+
+For example, try changing the h3 font size from 1.3em to 0.5em, or
+change the text colour in body from #1A1A1A to another colour. Make one
+change at a time and see how it affects the output.
+
+What do you think this **.sr-only** block may be used for?
