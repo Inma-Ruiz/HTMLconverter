@@ -8,7 +8,9 @@ editor_options:
 
 **make_qmd()** easily converts your **report.docx** into a **report.qmd** that can be rendered as HTML.
 
-## Format of the word document 
+## Prior conversion:
+
+### Format of the word document 
 
 Your **report.docx** must use Heading 1 (H1) , Heading 2 (H2) Heading 3 (H3) , etcetera for sections and subsections as they will be captured as such.
 (In Word: Home/Styles/...)
@@ -22,6 +24,12 @@ Pictures and charts better if in SVG format.
 
 Each image should be anchored to a blank line where you want the image to appear.
 (In Word: right click in the image then set layout option to “In Line with Text” and ensure that “Move with text” is selected) and check in the quarto document that the image appears as a single line like that: ![](media/image3.svg){width="100%"}
+
+### Header Image
+
+The YAML the function produces include a line that captures a banner image.
+
+Place the image you want to use as a header, named as **header_image.svg** inside the **output** folder
 
 ## Create the .qmd version of your report
 
