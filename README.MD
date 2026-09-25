@@ -23,7 +23,8 @@ You can use bulled list.
 Pictures and charts better if in SVG format.
 
 Each image should be anchored to a blank line where you want the image to appear.
-(In Word: right click in the image then set layout option to “In Line with Text” and ensure that “Move with text” is selected) and check in the quarto document that the image appears as a single line like that: ![](media/image3.svg){width="100%"}
+(In Word: right click in the image then set layout option to “In Line with Text” and ensure that “Move with text” is selected) 
+Check in the quarto document that the image appears as a single line of code with no text caption. Example: `![](media/image3.svg){width="100%"}`
 
 ### Header Image
 
