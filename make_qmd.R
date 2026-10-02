@@ -1,4 +1,4 @@
-make_qmd <- function(docx_path) {
+make_qmd <- function(docx_path, qmd_name) {
   
   # store charts/pictures
   media_dir <- here::here("output")
@@ -110,7 +110,7 @@ make_qmd <- function(docx_path) {
   # write qmd
   writeLines(
     output_lines,
-    here::here("output", "report.qmd")
+    here::here("output", qmd_name)
   )
   
   return(here::here("output"))
