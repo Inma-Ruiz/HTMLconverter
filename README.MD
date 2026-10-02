@@ -6,7 +6,9 @@ editor_options:
 
 # HTMLconverter
 
-`make_qmd()` easily converts your `report.docx` into a `report.qmd` that can be rendered as HTML.
+`make_qmd()` creates a Quarto version of a `report.docx`. This can be rendered as HTML.
+
+Call it as `make_qmd("input/report.docx", "report.qmd")`
 
 ## Prior to conversion:
 
@@ -36,7 +38,7 @@ Place the image you want to use as a header, named `header_image.svg` inside the
 
 Once the document is correctly formatted, place your `report.docx` file inside the `input` folder.
 
-Run the `mainConverter.R` script in which you have entered the name of the file to be converted in the line: `make_qmd("input/ your_report_name.docx")` 
+Run the `mainConverter.R` script in which you have modified the line `make_qmd("input/report.docx", "report.qmd")` to your naming needs. 
 After running the code, a `report.qmd` document will appear inside the `output` folder.
 
 Render the Quarto file to obtain the equivalent `report.html` publication.
